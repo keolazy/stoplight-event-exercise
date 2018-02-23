@@ -16,7 +16,7 @@
   let trafficLight = document.getElementById('traffic-light');
 
   controls.addEventListener('click', function(ev){
-    let lightBehavior = ev.target.innerText; // new variable to identify
+    let lightBehavior = ev.target.innerText; // fills in if you clicked on button.
     for (var item in lights) {
       if (lights.hasOwnProperty(item)) { // if property is filled
         lights[item].setAttribute('class',"bulb"); //
